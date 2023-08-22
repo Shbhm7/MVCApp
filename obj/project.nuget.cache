@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qzopSj3ioC4n+nWaLYlmJGUH0cK7dtD7dret8Zz6EqLPld+5opEaoKUciD1kPRSNNIZuCDSDEEuopx1Wcq/9Zg==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Shubham.Pathania\\MVC\\MVCApp\\MVCApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shubham.Pathania\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

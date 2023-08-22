@@ -1,0 +1,24 @@
+
+@model Product
+
+ <form asp-action="Create">
+
+@using (Html.BeginForm("Create", "Product", FormMethod.Post))
+{
+    @Html.LabelFor(m => m.ProductName)
+    @Html.TextBoxFor(m => m.ProductName)
+    @Html.LabelFor(m => m.Price)
+    @Html.TextBoxFor(m => m.Price)
+    @Html.LabelFor(m => m.Company)
+    @Html.TextBoxFor(m => m.Company)
+
+<input type="submit" value="Add Product" />
+}
+ </form>
+
+
+ 
+
+
+
+

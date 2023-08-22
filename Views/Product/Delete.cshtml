@@ -1,0 +1,18 @@
+
+@model Product
+
+ <h2>Delete</h2>
+@using (Html.BeginForm("DeleteConfirmed", "Product", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.Id)
+   <p>Are you sure you want to delete the Product: <strong>@Model.ProductName</strong>?</p>
+<input type="Submit" value="Delete" />
+ 
+}
+
+
+ 
+
+
+
+
